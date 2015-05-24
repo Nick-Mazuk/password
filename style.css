@@ -1,0 +1,40 @@
+body {
+	font-family: 'Source Code Pro', monospace;
+	background-color: #000000;
+	color:#00FF00;
+	margin:0;
+	padding:0;
+}
+
+#container {
+	width:900px;
+	margin:0 auto;
+	padding-top:3px;
+}
+
+h1,h2 {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2 {
+	font-size:3em;
+}
+
+#input {
+	color:#00FF00;
+	background-color: transparent;
+	font-size:1.5em;
+	border:none;
+	border-bottom:1px solid #00FF00;
+	margin:6px auto;
+	display: block;
+}
+
+#input:focus {
+	outline:none;
+}
+
+#correctness {
+	display: none;
+}
