@@ -29,6 +29,7 @@ h2 {
 	border-bottom:1px solid #00FF00;
 	margin:6px auto;
 	display: block;
+	font-family: 'Source Code Pro', monospace;
 }
 
 #input:focus {
