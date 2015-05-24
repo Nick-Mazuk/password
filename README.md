@@ -1,5 +1,5 @@
 #Password
-Click [here](nick-mazuk.github.io/password) to view it.
+Click [here](https://nick-mazuk.github.io/password) to view it.
 ##Premise
 This passcode generator transcends all others. The passcode changes after every single input, making it virtually impossible to crack. And pure guessing gives a 1:10<sup>45</sup> chance of entering the correct passcode. So can you crack it?
 ##The Product
