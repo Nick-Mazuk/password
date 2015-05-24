@@ -1,1 +1,18 @@
-Hello world
+<head>
+	<title>Passwords (Key)</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="container">
+		<h1>Passwords (Key)</h1>
+		<h3>Background</h3>
+		<p>Hopefully you have figured out the password to <a href="http://nick-mazuk.github.io/password">this code</a> by now and did not just get this url from another person. The inspiration for this project came from the insecurities of a keypad code. If someone is watching, they will always know the password unless the password changes. Yes, there are other security features availible, but it always comes down to some sort of algorithm that a hacker can figure out with enough time. The key, then, is mathematics.</p>
+		<p>Now you may remember transcendental numbers from mathematics. If not, all you need to know is that a transcendental number is a number that cannot be the solution to any polynomial and that it has two key properties. The first is, like irrational numbers, the digits of a transcendental number does not repeat, end or have a pattern. The second property is that there are more transcendental numbers than there are rational numbers. This means that there is an uncountable infinity of transcendental numbers and implies that every application of this security feature can have a unique key.</p>
+		<p>Essentially what all this means is that the only way to find the passcode (unless you know the key) is to brute force it by watching another person correctly input the passcode thousands of times.</p>
+		<h3>How to solve it</h3>
+		<p>They key to this code is <i>e</i>, a transcendental number that is approximately 2.71828182845. The hint presented each time is 6 digits from a random location within the number <i>e</i>. For instance, let's say the hint was 718281. The length of the passcode for the given hint is the digit before the presented digits (2 for this case), and the passcode is the digits after the presented digits. In this case, the passcode is 82, because 82 is 2 digits after the given numbers. If for some reason the previous digit is a 0 (indicating that the length of the response is 0), the closest digit that is not 0 is the length of the response. For instance, one part of the number <i>e</i> is 20030599218. If the numbers 305992 are shown, the length of the response will not be 0, but the first nonzero number before the given string, so 2. This means that the passcode is 18 for this case.</p>
+		<h3>Practical Use</h3>
+		<p>In practice, the way to unlock your keypad is to memorize the digits of the transcendental number of your choosing. In this case, the number was <i>e</i> and the first 10,000 digits were used. Though not everyone has that good of a memory, even 100 digits will suffice for most people. The person will then set that number as their key and then use the system to get to their information. If a person is watching, they will have no clue what is going on as the number changes every time. Also, pure guessing doesn't work as even the length of the response changes. This means that pure guessing has a 1:10<sup>45</sup> chance of guessing correctly.
+	</div>
+</body>

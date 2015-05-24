@@ -39,3 +39,7 @@ h2 {
 #correctness {
 	display: none;
 }
+
+a, a:hover,a:link,a:visited,a:active {
+	color:#00FF00;
+}
