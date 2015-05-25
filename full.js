@@ -51,7 +51,7 @@ function set() {
 	hint.innerHTML = hintText;
 	var offset = 1;
 	var answerLength = parseInt(guide.substring(start-1,start));
-	while(answerLength == 0) {
+	while(answerLength < 2) {
 		var answerLength = parseInt(guide.substring(start-offset,start-offset+1));
 		offset++;
 	}
